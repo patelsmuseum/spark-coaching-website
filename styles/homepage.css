@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+}
+
+.navbar{
+    height: 60px;
+    text-align:center;
+    justify-content: center;
+}
+
+.logo{
+    height: 60px;
+    width: auto;
+
+}
+
+.bg-brown{
+    background-color: rgb(99, 166, 200);
+}
+
+
+
+
+/* crousel */
+.carousel-item{
+    min-height: 50vh;
+}
+/* header */
+header{
+    height: 80vh;
+    background-color: #ef8989;
+}
+
+/* main */
+main{
+    
+    height: auto;
+    display: flex;
+}
+
+label{
+    display: block;
+}
+
+#right{
+    min-width: 50%;
+    border: 2px solid black;
+    
+}
+
+.form{
+    display: flex;
+}
+
+#left{
+    margin: auto;
+}
+
+
+
+
+.testimonial {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#best-place {
+    flex: 0 1 100%;
+    overflow: hidden;
+    overflow-y: hidden;
+    border: 2px solid black;
+}
+
+#best-place img {
+   height: auto;
+   
+}
+
+#monials {
+    flex: 0 1 100%; 
+    padding: 10px;
+    border:2px solid black;
+}
+#monials img{
+    height: auto;
+    border: 2px solid black;
+}
+
+.card{
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+@media (min-width: 768px) {
+   
+    #best-place, #monials {
+        flex: 0 1 50%; 
+    }
+}
+
+/* footer.css */
+.footer {
+    background-color: #310416; 
+    color: #fff; 
+    padding: 20px 0; 
+}
+
+.logo {
+    max-width: 100px; 
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px; 
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+}
+
+.social-icons li {
+    display: inline;
+    margin-right: 10px; 
+}
+
+.social-icons i {
+    font-size: 24px;
+    color: #fff;
+}
+
+
+.whatsapp-logo {
+    position: fixed;
+    bottom: 20px; 
+    right: 20px; 
+    z-index: 9999; 
+}
+
+
